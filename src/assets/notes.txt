@@ -1,0 +1,10 @@
+ng generate module @pages/home --routing
+ng generate module @pages/collection --routing
+ng generate module @pages/new-vinyl --routing
+ng generate module @pages/wishlist --routing
+
+
+ng generate component @pages/home --skipTests=true
+ng generate component @pages/collection --skipTests=true
+ng generate component @pages/new-vinyl --skipTests=true
+ng generate component @pages/wishlist --skipTests=true
